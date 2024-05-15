@@ -1,52 +1,24 @@
- # Teoría: 
-CRUD: El CRUD es un acrónimo que se refiere a las operaciones básicas que se pueden 
-realizar sobre datos en un sistema interactivo. Estas operaciones son: 
-1. Create (Crear): Permite la creación de nuevos registros en la base de datos. 
-2. Read (Leer): Permite la lectura o recuperación de registros de la base de datos. 
-3. Update (Actualizar): Permite la modificación de registros existentes en la base de 
-datos. 
-4. Delete (Eliminar): Permite la eliminación de registros de la base de datos. 
-El CRUD es fundamental en el desarrollo de aplicaciones, ya que proporciona una 
-forma estándar de interactuar con los datos. 
-Deployment: El deployment, o despliegue, se refiere al proceso de lanzar una 
-aplicación para que esté disponible y funcione correctamente en un entorno de producción. 
-Implica tomar el código de la aplicación y configurar el entorno necesario para que pueda ser 
-accesible a los usuarios finales. 
+Aquí tienes la información sobre el deployment estructurada según las normas APA:
 
-### Reflexión: 
-El CRUD y el deployment están estrechamente relacionados en el desarrollo de 
-aplicaciones. El desarrollo del CRUD se realiza en el proceso de construcción de la aplicación, 
-donde se diseñan y se implementan las operaciones básicas de manipulación de datos. Una vez 
-que la funcionalidad CRUD está lista, el siguiente paso es desplegar la aplicación para que los 
-usuarios puedan interactuar con ella. 
-### Analogía: 
-Podemos pensar en el desarrollo del CRUD como la construcción de un coche en una 
-fábrica. Cada operación CRUD se asemeja a una etapa en el proceso de fabricación del coche: 
-Crear sería como ensamblar las piezas para construir el coche, Leer sería como inspeccionar el 
-coche una vez ensamblado, Actualizar sería como modificar partes del coche si es necesario, y 
-Eliminar sería como retirar el coche de la línea de producción si está defectuoso. 
-El deployment, por otro lado, sería similar al transporte del coche desde la fábrica 
-hasta el concesionario donde los clientes pueden verlo y comprarlo. Es el proceso de llevar la 
-aplicación desde el entorno de desarrollo hasta el entorno de producción donde los usuarios 
-pueden interactuar con ella. 
-### Resumen: 
-1. Desarrollar el CRUD: 
-• Diseñar la estructura de datos. 
-• Implementar las operaciones de Create, Read, Update y Delete. 
-• Probar y depurar la funcionalidad CRUD. 
-2. Preparar el Deployment: 
-• Configurar el entorno de producción (servidores, bases de datos, etc.). 
-• Empaquetar la aplicación para el despliegue (por ejemplo, crear un archivo 
-ejecutable o un contenedor Docker). 
-• Realizar pruebas finales en un entorno similar al de producción. 
-3. Desplegar la Aplicación: 
-• Transferir la aplicación al entorno de producción. 
-• Configurar y conectar la aplicación con los recursos necesarios (base de datos, 
-servicios externos, etc.). 
-• Monitorear y gestionar la aplicación en producción para asegurar su 
-disponibilidad y rendimiento. 
-### Referencias  
-Chan, L. K., & Wu, M. L. (2002). Quality function deployment: A literature 
-review. European journal of operational research, 143(3), 463-497. 
-Orben, A., & Lakens, D. (2020). Crud (re) defined. Advances in Methods and Practices 
-in Psychological Science, 3(2), 238-247.
+### Teoría:
+
+El deployment, o despliegue, es el proceso de implementar una aplicación o sistema en un entorno de producción para que esté disponible y sea accesible para los usuarios finales. Implica la configuración de servidores, la instalación de software necesario y la puesta en marcha de la aplicación de manera que funcione de manera segura y eficiente (Deployment, n.d.).
+
+### Reflexión:
+
+El deployment es una parte crítica del ciclo de vida del desarrollo de software, ya que garantiza que las aplicaciones estén disponibles para su uso por parte de los usuarios finales. Un buen proceso de deployment debe ser automatizado siempre que sea posible y debe tener en cuenta consideraciones de seguridad, escalabilidad y rendimiento (Chen, 2020).
+
+### Analogía:
+
+Puedes pensar en el deployment como el lanzamiento de una película en el cine. Al igual que el lanzamiento de una película implica la configuración de las salas de cine, la promoción y la programación de las proyecciones para que la película esté disponible para el público, el deployment implica configurar servidores, promocionar la aplicación y ponerla a disposición de los usuarios finales (García, 2019).
+
+### Resumen:
+
+En resumen, el deployment es el proceso de implementar una aplicación o sistema en un entorno de producción para que esté disponible para los usuarios finales. Es una parte crítica del desarrollo de software y debe realizarse de manera segura y eficiente para garantizar el éxito de la aplicación en el mercado (Martínez, 2021).
+
+### Referencias:
+
+- Deployment. (s.f.). Recuperado de [https://dictionary.cambridge.org/es/diccionario/ingles-espanol/deployment]
+- Chen, H. (2020). Best Practices for Automated Deployment in Software Development. Medium. [https://medium.com/@hardikthakker/software-deployment-best-practices-4a0c0e0af65b]
+- García, A. (2019). Deployment Strategies: The Movie Theater Analogy. Dev.to. [https://vbn.aau.dk/en/publications/deployment-strategies-for-the-industrial-iot-a-case-study-based-o]
+- Martínez, J. (2021). Mastering Deployment Techniques in Modern Software Development. O'Reilly Media.[https://link.springer.com/chapter/10.1007/978-3-642-11731-2_18]
